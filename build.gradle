@@ -28,8 +28,9 @@ dependencies {
 	testRuntimeOnly("org.junit.jupiter:junit-jupiter-params:${junitVersion}")
 }
 
+
 javafx {
-	sdk = '/Users/riedhammerko/Library/Java/JavaVirtualMachines/javafx-sdk-17'
+	// sdk = '/Users/riedhammerko/Library/Java/JavaVirtualMachines/javafx-sdk-17'
 	version = 17
 	modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
