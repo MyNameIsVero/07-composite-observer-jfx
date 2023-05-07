@@ -13,8 +13,8 @@ import java.util.List;
  */
 
 public interface OpenMensaAPI {
-	// TODO add method to get meals of a day
-	@GET("/canteens/269/days/{date}/meals")
+
+	@GET("canteens/256/days/{date}/meals")
 	Call<List<Meal>> getMeals(@Path("date") String date);
 
 	// example request: GET /canteens/229/days/2017-11-22/meals
